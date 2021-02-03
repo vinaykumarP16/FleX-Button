@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FLeX-button | Vinay</title>
+	<meta http-equiv="refresh" content="25">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/18fc5b7198.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" type="image/ico" href="./favicon.ico">
+
+</head>
+<body>
+	<div class="heading">
+	<h1>FleX-dem0 using Butt0ns <i class="fab fa-css3-alt"></i></h1> <br>
+<h3>Auto <i class="fas fa-sync"></i> refresh enabled</h3>
+</div>
+<section>
+	<div class="container">
+		<div class="box" id="myDIV">
+			<div class="item">
+				<span id="myText" class="">text</span>
+			</div>
+		</div>
+		<div class="btn">
+			<button onclick="topLeft()">top left</button>
+			<button onclick="topCenter()">top center</button>
+			<button onclick="topBottom()">top right</button>
+			<button onclick="centerLeft()">center left</button>
+			<button onclick="center()">center</button>
+			<button onclick="centerRight()">center right</button>
+			<button onclick="bottomLeft()">bottom left</button>
+			<button onclick="bottomCenter()">bottom center</button>
+			<button onclick="bottomRight()">bottom right</button>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript" >
+	function topLeft() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("top-left");
+  		var element = document.getElementById("myText");
+  		element.classList.toggle("tl");
+	}
+
+	function topBottom() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("top-right");
+	}
+
+		function topCenter() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("top-center");
+	}
+		function centerLeft() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("center-left");
+	}
+		function center() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("center");
+	}
+		function centerRight() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("center-right");
+	}
+
+		function bottomLeft() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("bottom-left");
+	}
+		function bottomCenter() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("bottom-center");
+	}
+		function bottomRight() {
+ 		 var element = document.getElementById("myDIV");
+  		element.classList.toggle("bottom-right");
+	}
+
+</script>
+</body>
+</html>

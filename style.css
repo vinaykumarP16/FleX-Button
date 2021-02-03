@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: consolas;
+}
+
+.heading{
+	margin-top: 10px;
+	align-items: center;
+	text-align: center; 
+	background: #6C6A6A;
+	color: #fff;
+}
+
+body{
+	background: #6C6A6A;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #A9A2A2;
+}
+.container{
+	position: relative;
+	width: 930px;
+	border:2px solid #fff;
+	padding: 20px;
+	background: #9AEA90;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: inherit;
+}
+
+
+
+.container .box{
+	width: 280px;
+	height: 190px;
+	color: #fff;
+	background-color: white;
+	border:2px solid #fff;
+	margin-bottom: 20px;
+	padding: 10px;
+	display: flex;
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+.container .box .item{
+	position: relative;
+	background: red;
+	width: 100px;
+	height: 80px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+
+}
+
+.btn{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-bottom: 2px;
+	justify-content: space-around;
+}
+
+button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	justify-content: space-around;
+	font-size: 20px;
+	text-transform: unset;
+	justify-content: space-between;
+}
+button:hover{
+	background: orange;
+	color: blue;
+}
+
+.top-left{
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.top-center{
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.top-right{
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.center-left{
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.center{
+	justify-content: center;
+	align-items: center;
+}
+
+.center-right{
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.bottom-left{
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.bottom-center{
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.bottom-right{
+	justify-content: flex-end;
+	align-items: flex-end;
+}
